@@ -7,6 +7,11 @@
 //
 
 #import "CTMediator+A_Secion.h"
+//注意：
+/**
+ 1, TargetName参数需要去掉类的Target_前缀
+ 2，ActionName方法名前需要去掉Action_前缀
+ */
 NSString * const kCTMediatorTargetA = @"A_SecionViewController";
 
 NSString * const kCTMediatorActionASecionViewController = @"ASecionViewController";

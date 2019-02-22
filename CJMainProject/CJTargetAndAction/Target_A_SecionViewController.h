@@ -9,7 +9,11 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 NS_ASSUME_NONNULL_BEGIN
-
+//注意：
+/**
+ 1,类名称前需要加Target_前缀
+ 2，方法名前需要加Action_前缀
+ */
 @interface Target_A_SecionViewController : NSObject
 - (UIViewController *)Action_ASecionViewController:(NSDictionary *)param;
 @end
